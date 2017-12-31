@@ -7,9 +7,9 @@ if(!file.exists(".\\DataSets\\SampleData.csv")){
 }
 
 
-if(!file.exists(".\\DataSets\\BaltimoreCameraData.xlsx")){
-  URL = "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.tsv?accessType=DOWNLOAD"
-  download.file(URL, destfile = ".\\Datasets\\BaltimoreCameraData.xlsx", method ="curl")
+if(!file.exists(".\\DataSets\\DummyBook.xlsx")){
+  URL = "https://github.com/cksajil/DataWranglingWithR/raw/master/DataSets/DummyBook.xlsx"
+  download.file(URL, destfile = ".\\Datasets\\DummyBook.xlsx", method ="curl")
   dateofDownload<-date()
 }
 
