@@ -15,3 +15,9 @@ names(mtcars)
 
 str(mtcars)
 summary(mtcars)
+
+hist(mtcars$mpg)
+hist(mtcars$hp)
+hist(mtcars$cyl)
+
+plot(mtcars$mpg, mtcars$hp)
