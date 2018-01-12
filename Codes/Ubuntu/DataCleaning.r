@@ -21,3 +21,14 @@ hist(mtcars$hp)
 hist(mtcars$cyl)
 
 plot(mtcars$mpg, mtcars$hp)
+
+
+# Ecoding to with digits
+
+list = sample(c("yes", "no"), size = 10, replace = TRUE)
+list
+list = factor(list)
+list
+list = as.numeric(list)
+list
+
